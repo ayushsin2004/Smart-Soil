@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:translateX="14"
+        android:translateY="14">
+
+        <!-- Soil / Earth Base (Brown Curves) -->
+        <path
+            android:pathData="M20,65 C30,80 60,80 80,55 L80,62 C60,87 30,87 20,72 Z"
+            android:fillColor="#A1887F"/>
+        <path
+            android:pathData="M25,60 C35,72 55,72 75,50 L75,55 C55,77 35,77 25,65 Z"
+            android:fillColor="#8D6E63"/>
+        <path
+            android:pathData="M30,55 C40,65 50,65 70,45 L70,50 C50,70 40,70 30,60 Z"
+            android:fillColor="#6D4C41"/>
+
+        <!-- Green Leaf Stem and Main Shape -->
+        <path
+            android:pathData="M45,65 C45,55 42,45 42,35 C42,15 55,5 65,5 C75,5 80,20 75,35 C70,50 55,55 45,65 Z"
+            android:fillColor="#81C784"/>
+
+        <!-- Leaf Veins / Network Nodes -->
+        <path
+            android:pathData="M55,15 L65,25 M55,25 L60,35 M65,15 L50,30"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1.2"
+            android:strokeLineCap="round"/>
+
+        <!-- Small Nodes -->
+        <path
+            android:pathData="M55,15 m-1.2,0 a1.2,1.2 0 1,1 2.4,0 a1.2,1.2 0 1,1 -2.4,0"
+            android:fillColor="#FFFFFF"/>
+        <path
+            android:pathData="M65,25 m-1.2,0 a1.2,1.2 0 1,1 2.4,0 a1.2,1.2 0 1,1 -2.4,0"
+            android:fillColor="#FFFFFF"/>
+        <path
+            android:pathData="M60,35 m-1.2,0 a1.2,1.2 0 1,1 2.4,0 a1.2,1.2 0 1,1 -2.4,0"
+            android:fillColor="#FFFFFF"/>
+        <path
+            android:pathData="M50,30 m-1.2,0 a1.2,1.2 0 1,1 2.4,0 a1.2,1.2 0 1,1 -2.4,0"
+            android:fillColor="#FFFFFF"/>
+
+    </group>
+</vector>
